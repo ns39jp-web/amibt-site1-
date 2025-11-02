@@ -1,51 +1,48 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
+  <title>A-MIBT | Core Members</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Members | A-MIBT</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header>
     <div class="nav">
-      <img src="logo.png" alt="A-MIBT" onerror="this.style.display='none'">
+      <img src="logo.png" alt="A-MIBT Logo" style="height:60px;">
       <div class="spacer"></div>
-      <a class="btn" href="videos.html">教育動画</a>
-      <a class="btn" href="index.html">Home</a>
-      <a class="btn fill" href="#" onclick="logout()">Logout</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="members.html" class="active">Members</a>
+      <a href="videos.html">Videos</a>
+      <a href="contact.html">Contact</a>
     </div>
   </header>
 
-  <main class="grid">
-    <div class="card">
-      <h2>Founding Advisors</h2>
-      <ul>
-        <li>Dr. Eisuke Fukuma (Japan)</li>
-        <li>Dr. Takayuki Kinoshita (Japan)</li>
-        <li>Dr. Hyeong Seok Park (Korea)</li>
-        <li>Dr. Shucheng Su (China)</li>
-        <li>Dr. Peng-wei Lyu (China)</li>
+  <main>
+    <section class="hero">
+      <h1>Core Members</h1>
+      <p>Key experts actively contributing to research, education, and collaboration within A-MIBT.</p>
+    </section>
+
+    <section class="members-list" style="max-width:720px;margin:auto;padding:2em 1em;">
+      <ul style="list-style:none;padding:0;line-height:1.8;">
+        <li><strong>Naomi Sakamoto</strong>, Japan – Kameda Medical Center</li>
+        <li><strong>Zhao Jin</strong>, China – China-Japan Friendship Hospital</li>
+        <li><strong>Hung-wen Lai</strong>, Taiwan – Chang Gung Memorial Hospital</li>
+        <li><strong>Hui Zhang</strong>, China – Fuzhou University Affiliated Provincial Hospital</li>
+        <li><strong>Li-Sheng Lin</strong>, China – Affiliated Hospital of Putian University</li>
+        <li><strong>Zi-Hang Wang</strong>, China – Beijing Chao-Yang Hospital, Capital Medical University</li>
+        <li><strong>Qing-Mo Yang</strong>, China – First Affiliated Hospital of Xiamen University</li>
+        <li><strong>Fu-Wu Qian</strong>, China – Guiping People’s Hospital of Guangxi</li>
+        <li><strong>Mok Chi Wei</strong>, Singapore – Changi General Hospital</li>
       </ul>
-      <p style="margin-top:6px;color:#999">詳細は順次追加します（会員限定プロフィール）。</p>
-    </div>
-    <div class="card">
-      <h2>Core Members</h2>
-      <ul>
-        <li>Dr. Naomi Sakamoto (Japan)</li>
-        <li>Dr. Hung-Wen Lai (Taiwan)</li>
-        <li>Dr. Mok Chi Wei (Singapore)</li>
-        <li>Dr. Zhao Jin (China)</li>
-        <li>Dr. Hui Zhang (China)</li>
-        <li>Dr. Qingmo Yang (China)</li>
-        <li>Dr. Li Sheng-Lin (China)</li>
-        <li>Dr. Zi-Hang Wang (China)</li>
-        <li>Dr. Qianfu Wu (China)</li>
-      </ul>
-    </div>
+    </section>
   </main>
 
-  <footer>© 2025 A-MIBT</footer>
-  <script src="auth.js"></script>
+  <footer>
+    <p>© 2025 A-MIBT | Asian Forum for Minimally Invasive Breast Therapies</p>
+  </footer>
 </body>
 </html>
